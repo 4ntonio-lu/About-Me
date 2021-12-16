@@ -77,9 +77,40 @@ h1::after {
 #about-me {
     animation: fadeup 2s ease 10s forwards;
     transform: translateY(1vw);
-    margin: 18vw auto;
+    margin: 18vw auto 10vw;
     display: block;
     opacity: 0;
+}
+
+#resume {
+  transition: box-shadow 0.75s ease-in-out;
+  background-color: transparent;
+  border: 3px solid #ffd43b;
+  border-radius: 0.5vw;
+  font-size: 0.75vw;
+  font-weight: 700;
+  margin: 1vw auto;
+  color: #ffd43b;
+  height: 2.5vw;
+  width: 10vw;
+}
+
+#resume:hover {
+    box-shadow: 0 0 40px 40px #ffd43b inset;
+    color: #0a1930;
+    cursor: pointer;
+}
+
+.description {
+    letter-spacing: 0.05vw;
+    line-height: 2vw;
+    font-size: 1vw;
+}
+
+.logo {
+    height: 5vw;
+    margin: auto 2vw;
+    text-align: center;
 }
 
 @keyframes text {
