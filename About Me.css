@@ -1,85 +1,85 @@
 body {
-    background-color: #0a1930;
     font-family: "Source Sans Pro", sans-serif;
-    display: grid;
+    background-color: #0a1930;
     text-align: center;
     color: #cccccc;
+    display: grid;
 }
 
 h1 {
-    font-size: 3vw;
-    position: relative;
     font-family: "Source Code Pro", monospace;
-    width: max-content;
     margin: 15vw auto 0vw;
+    position: relative;
+    width: max-content;
+    font-size: 3vw;
 }
 
 h1::before, h1::after {
-    content: '';
     position: absolute;
-    top: 0;
-    right: 0;
+    content: '';
     bottom: 0;
+    right: 0;
     left: 0;
+    top: 0;
 }
 
 h1::before {
-    background-color: #0a1930;
     animation: text 4s 1s steps(23) forwards;
+    background-color: #0a1930;
 }
 
 h1::after {
-    width: 0.25vw;
-    background-color: white;
     animation: text 4s 1s steps(23) forwards,
-    blink 0.75s steps(23) 30;
+    blink 0.75s steps(23) infinite;
+    background-color: white;
+    width: 0.25vw;
 }
 
 .welcome {
     font-family: "Source Code Pro", monospace;
-    margin: 2vw auto;
-    border-bottom: 3px solid #cccccc;
-    overflow: hidden;
     animation: reveal 2s linear 6s forwards;
+    border-bottom: 3px solid #cccccc;
+    margin: 2vw auto;
+    overflow: hidden;
     opacity: 0;
 }
 
 .welcome p {
-    margin: 0;
-    padding: 0;
-    color: #cccccc;
-    font-size: 1.5vw;
     text-shadow: 2px 2px 2px black;
+    font-size: 1.5vw;
+    color: #cccccc;
+    padding: 0;
+    margin: 0;
 }
 
 #portfolio {
   transition: box-shadow 0.75s ease-in-out;
+  animation: fadeup 2s ease 8s forwards;
   background-color: transparent;
   border: 3px solid #cccccc;
+  transform: translateY(1vw);
   border-radius: 0.5vw;
-  color: #cccccc;
   font-size: 0.75vw;
   font-weight: 700;
+  color: #cccccc;
   height: 2.5vw;
+  margin: auto;
   width: 10vw;
   opacity: 0;
-  transform: translateY(1vw);
-  margin: auto;
-  animation: fadeup 2s ease 8s forwards;
 }
 
 #portfolio:hover {
     box-shadow: 0 0 40px 40px #cccccc inset;
-    color: black;
     cursor: pointer;
+    color: black;
 }
 
 #about-me {
     animation: fadeup 2s ease 10s forwards;
     transform: translateY(1vw);
-    opacity: 0;
-    display: block;
     margin: 18vw auto;
+    display: block;
+    opacity: 0;
 }
 
 @keyframes text {
@@ -123,7 +123,7 @@ h1::after {
 
 @keyframes fadeup {
     to {
-        opacity: 1;
         transform: translateY(0);
+        opacity: 1;
     }
 }
