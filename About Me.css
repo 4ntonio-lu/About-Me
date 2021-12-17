@@ -108,9 +108,16 @@ h1::after {
 }
 
 .logo {
-    height: 5vw;
-    margin: auto 2vw;
+    transition: height 0.5s ease-in, opacity 0.5s ease-in;
     text-align: center;
+    margin: auto 2vw;
+    opacity: 0.8;
+    height: 5vw;
+}
+
+.logo:hover {
+    height: 5.25vw;
+    opacity: 1;
 }
 
 @keyframes text {
