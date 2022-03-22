@@ -53,19 +53,19 @@ h1::after {
 }
 
 #portfolio {
-  transition: box-shadow 0.75s ease-in-out;
-  animation: fadeup 2s ease 8s forwards;
-  background-color: transparent;
-  border: 3px solid #cccccc;
-  transform: translateY(1vw);
-  border-radius: 0.5vw;
-  font-size: 0.75vw;
-  font-weight: 700;
-  color: #cccccc;
-  height: 2.5vw;
-  margin: auto;
-  width: 10vw;
-  opacity: 0;
+    transition: box-shadow 0.75s ease-in-out;
+    animation: fadeup 2s ease 8s forwards;
+    background-color: transparent;
+    border: 3px solid #cccccc;
+    transform: translateY(1vw);
+    border-radius: 0.5vw;
+    font-size: 0.75vw;
+    font-weight: 700;
+    color: #cccccc;
+    height: 2.5vw;
+    margin: auto;
+    width: 10vw;
+    opacity: 0;
 }
 
 #portfolio:hover {
@@ -78,8 +78,10 @@ h1::after {
     animation: fadeup 2s ease 10s forwards;
     transform: translateY(1vw);
     margin: 18vw auto 10vw;
+    text-decoration: none;
+    color: #cccccc;
     display: block;
-    opacity: 0;
+    opacity: 1;
 }
 
 #resume {
@@ -99,6 +101,10 @@ h1::after {
     box-shadow: 0 0 40px 40px #ffd43b inset;
     color: #0a1930;
     cursor: pointer;
+}
+
+#C\# {
+    margin-left: 4vw;
 }
 
 .description {
