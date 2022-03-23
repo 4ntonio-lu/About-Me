@@ -74,6 +74,10 @@ h1::after {
     color: black;
 }
 
+#about-me:hover {
+    color: #ffffff;
+}
+
 #about-me {
     animation: fadeup 2s ease 10s forwards;
     transform: translateY(1vw);
@@ -81,20 +85,20 @@ h1::after {
     text-decoration: none;
     color: #cccccc;
     display: block;
-    opacity: 1;
+    opacity: 0;
 }
 
 #resume {
-  transition: box-shadow 0.75s ease-in-out;
-  background-color: transparent;
-  border: 3px solid #ffd43b;
-  border-radius: 0.5vw;
-  font-size: 0.75vw;
-  font-weight: 700;
-  margin: 1vw auto;
-  color: #ffd43b;
-  height: 2.5vw;
-  width: 10vw;
+    transition: box-shadow 0.75s ease-in-out;
+    background-color: transparent;
+    border: 3px solid #ffd43b;
+    border-radius: 0.5vw;
+    font-size: 0.75vw;
+    font-weight: 700;
+    margin: 1vw auto;
+    color: #ffd43b;
+    height: 2.5vw;
+    width: 10vw;
 }
 
 #resume:hover {
