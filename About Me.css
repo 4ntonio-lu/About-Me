@@ -36,7 +36,7 @@ h1::after {
 }
 
 .welcome {
-    font-family: "Source Code Pro", monospace;
+    font-family: "Source Code Pro", sans-serif;
     animation: reveal 2s linear 6s forwards;
     border-bottom: 3px solid #cccccc;
     margin: 2vw auto;
@@ -79,7 +79,7 @@ h1::after {
 }
 
 #about-me {
-    animation: fadeup 2s ease 10s forwards;
+    animation: fadeup 2s ease 8s forwards;
     transform: translateY(1vw);
     margin: 18vw auto 10vw;
     text-decoration: none;
