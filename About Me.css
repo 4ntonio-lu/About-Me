@@ -36,7 +36,7 @@ h1::after {
 }
 
 .welcome {
-    font-family: "Source Code Pro", sans-serif;
+    font-family: "Source Code Pro", monospace;
     animation: reveal 2s linear 6s forwards;
     border-bottom: 3px solid #cccccc;
     margin: 2vw auto;
