@@ -24,12 +24,12 @@ h1::before, h1::after {
 }
 
 h1::before {
-    animation: text 4s 1s steps(23) forwards;
+    animation: text 3s 1s steps(23) forwards;
     background-color: #0a1930;
 }
 
 h1::after {
-    animation: text 4s 1s steps(23) forwards,
+    animation: text 3s 1s steps(23) forwards,
     blink 0.75s steps(23) infinite;
     background-color: white;
     width: 0.25vw;
@@ -37,7 +37,7 @@ h1::after {
 
 .welcome {
     font-family: "Source Code Pro", monospace;
-    animation: reveal 2s linear 6s forwards;
+    animation: reveal 2s linear 5s forwards;
     border-bottom: 3px solid #cccccc;
     margin: 2vw auto;
     overflow: hidden;
@@ -54,7 +54,7 @@ h1::after {
 
 #portfolio {
     transition: box-shadow 0.75s ease-in-out;
-    animation: fadeup 2s ease 8s forwards;
+    animation: fadeup 2s ease 7s forwards;
     background-color: transparent;
     border: 3px solid #cccccc;
     transform: translateY(1vw);
@@ -63,7 +63,7 @@ h1::after {
     font-weight: 700;
     color: #cccccc;
     height: 2.5vw;
-    margin: auto;
+    margin: 1vw auto;
     width: 10vw;
     opacity: 0;
 }
@@ -81,7 +81,7 @@ h1::after {
 #about-me {
     animation: fadeup 2s ease 8s forwards;
     transform: translateY(1vw);
-    margin: 18vw auto 10vw;
+    margin: 10vw auto 10vw;
     text-decoration: none;
     color: #cccccc;
     display: block;
@@ -90,15 +90,17 @@ h1::after {
 
 #resume {
     transition: box-shadow 0.75s ease-in-out;
+    animation: fadeup 2s ease 7.5s forwards;
     background-color: transparent;
     border: 3px solid #ffd43b;
     border-radius: 0.5vw;
     font-size: 0.75vw;
     font-weight: 700;
-    margin: 1vw auto;
+    margin: auto;
     color: #ffd43b;
     height: 2.5vw;
     width: 10vw;
+    opacity: 0;
 }
 
 #resume:hover {
