@@ -113,7 +113,7 @@ h1::after {
 
 .description {
     letter-spacing: 0.05vw;
-    line-height: 2vw;
+    line-height: 1.9vw;
     font-size: 1vw;
 }
 
@@ -126,7 +126,7 @@ h1::after {
 }
 
 .logo:hover {
-    height: 5.25vw;
+    height: 7vw;
     opacity: 1;
 }
 
