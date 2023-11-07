@@ -107,10 +107,6 @@ h1::after {
     cursor: pointer;
 }
 
-#C\# {
-    margin-left: 4vw;
-}
-
 .description {
     letter-spacing: 0.05vw;
     line-height: 1.9vw;
