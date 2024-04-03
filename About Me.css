@@ -1,5 +1,4 @@
 body {
-    font-family: "Source Sans Pro", sans-serif;
     background-color: #0a1930;
     text-align: center;
     color: #cccccc;
@@ -36,7 +35,7 @@ h1::after {
 }
 
 .welcome {
-    font-family: "Source Code Pro", monospace;
+    font-family: "Trebuchet MS", sans-serif;
     animation: reveal 2s linear 5s forwards;
     border-bottom: 3px solid #cccccc;
     margin: 2vw auto;
@@ -88,6 +87,15 @@ h1::after {
     opacity: 0;
 }
 
+#idk {
+    font-family: "Trebuchet MS", sans-serif;
+    animation: fadeup 2s ease 8s forwards;
+    transform: translateY(1vw);
+    display: block;
+    opacity: 0;
+    margin-top: 150px;
+}
+
 #resume {
     transition: box-shadow 0.75s ease-in-out;
     animation: fadeup 2s ease 7.5s forwards;
@@ -96,7 +104,7 @@ h1::after {
     border-radius: 0.5vw;
     font-size: 0.75vw;
     font-weight: 700;
-    margin: auto;
+    margin: 10px;
     color: #ffd43b;
     height: 2.5vw;
     width: 10vw;
