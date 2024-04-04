@@ -36,7 +36,7 @@ h1::after {
 
 .welcome {
     font-family: "Trebuchet MS", sans-serif;
-    animation: reveal 2s linear 5s forwards;
+    animation: reveal 2s linear 4.5s forwards;
     border-bottom: 3px solid #cccccc;
     margin: 2vw auto;
     overflow: hidden;
@@ -89,7 +89,7 @@ h1::after {
 
 #idk {
     font-family: "Trebuchet MS", sans-serif;
-    animation: fadeup 2s ease 8s forwards;
+    animation: fadeup 2s ease 6.5s forwards;
     transform: translateY(1vw);
     display: block;
     opacity: 0;
@@ -98,7 +98,7 @@ h1::after {
 
 #resume {
     transition: box-shadow 0.75s ease-in-out;
-    animation: fadeup 2s ease 7.5s forwards;
+    animation: fadeup 2s ease 7s forwards;
     background-color: transparent;
     border: 3px solid #ffd43b;
     border-radius: 0.5vw;
@@ -133,6 +133,18 @@ h1::after {
 
 .logo:hover {
     height: 7vw;
+    opacity: 1;
+}
+
+.link {
+    transition: height 0.5s ease-in, opacity 0.5s ease-in;
+    text-align: center;
+    height: 1.5vw;
+    opacity: 0.8;
+}
+
+.link:hover {
+    height: 1.75vw;
     opacity: 1;
 }
 
